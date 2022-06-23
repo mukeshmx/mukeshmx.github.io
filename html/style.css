@@ -1,0 +1,34 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  src: url(Gustavo-Bold.ttf);
+  font-family: gus;
+}
+
+.background{
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(#ffffff, rgb(181, 180, 181) 0%, rgb(149, 149, 150) 16.81%, rgb(105, 105, 106) 40.34%, rgb(41, 41, 41) 60.5%, #000000 98.74%)
+}
+
+.cm{
+  font-size: 80px;
+  font-family: gus;
+  color: #fff;
+  position: absolute;
+  left: 17%;
+  top:10%;
+}
+
+.tx{
+  font-family: gus;
+  font-size: 40px;
+  position: absolute;
+  bottom: 10%;
+  left: 46%;
+  color: #fff;
+  display: inline;
+}
